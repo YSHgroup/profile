@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yshintro.netlify.app/sitemap.xml
