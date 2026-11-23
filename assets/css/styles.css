@@ -5,13 +5,13 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
 /* Social icons */
+.link-icon img{width:20px;height:20px;display:block}
 .social-icons{display:flex;align-items:center;gap:16px}
 .social-icons a{width:42px;height:42px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.04);transition:transform .2s ease,background .2s ease,border-color .2s ease}
 .social-icons img{width:20px;height:20px;display:block}
 .social-icons a:hover{transform:translateY(-3px);background:rgba(70,130,255,.12);border-color:rgba(90,160,255,.4)}
 .social-icons a:focus-visible{outline:2px solid #38bdf8;outline-offset:3px}
 .hero-social{margin-top:28px}
-.footer-social{padding-bottom:20px}
 a:focus-visible,.button:focus-visible{outline:2px solid #38bdf8;outline-offset:3px;border-radius:6px}
 @media (prefers-reduced-motion:reduce){.social-icons a{transition:none}}
 @media(max-width:680px){.social-icons{gap:12px}}
