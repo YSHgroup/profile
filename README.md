@@ -10,7 +10,7 @@ A responsive, single-page portfolio for presenting David Chan's background, AI/M
 - **Reddit:** [David-dev100](https://www.reddit.com/user/David-dev100)
 - **Bluesky:** [david-dev100.bsky.social](https://bsky.app/profile/david-dev100.bsky.social)
 - **Mastodon:** [@david_chan](https://mastodon.social/@david_chan)
-- **Personal profile:** [yshintro.netlify.app/about](https://yshintro.netlify.app/about/)
+- **Canonical portfolio:** [yshintro.netlify.app](https://yshintro.netlify.app/)
 
 ## Features
 
@@ -34,6 +34,7 @@ A responsive, single-page portfolio for presenting David Chan's background, AI/M
 │       └── og-image.png    # Social-sharing preview image
 ├── robots.txt
 ├── sitemap.xml
+├── _redirects               # Canonical-host 301 redirects for Netlify
 └── _headers                # Netlify-specific response headers (not used by GitHub Pages)
 ```
 
@@ -45,7 +46,7 @@ The page loads Google Fonts and social icons from external services, so those re
 
 ## Deploy
 
-This site is hosted with [GitHub Pages](https://pages.github.com/) at [https://yshgroup.github.io/profile](https://yshgroup.github.io/profile).
+The source is published on [GitHub Pages](https://yshgroup.github.io/profile). The canonical production domain is [https://yshintro.netlify.app/](https://yshintro.netlify.app/); keep canonical, Open Graph, structured data, sitemap, and redirects aligned with that domain.
 
 To publish changes, push them to the repository's configured GitHub Pages source. In the repository settings, open **Pages** and select the appropriate branch and folder (usually the repository root). Since this is a plain HTML/CSS site, no build command is needed. GitHub Pages does not process the Netlify-specific `_headers` file.
 
