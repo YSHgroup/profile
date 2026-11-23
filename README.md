@@ -11,6 +11,7 @@ A responsive, single-page portfolio for presenting David Chan's background, AI/M
 - **Bluesky:** [david-dev100.bsky.social](https://bsky.app/profile/david-dev100.bsky.social)
 - **Mastodon:** [@david_chan](https://mastodon.social/@david_chan)
 - **Canonical portfolio:** [yshintro.netlify.app](https://yshintro.netlify.app/)
+- **Personal profile:** [yshintro.netlify.app/about](https://yshintro.netlify.app/about/)
 
 ## Features
 
